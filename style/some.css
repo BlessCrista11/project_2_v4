@@ -1,0 +1,171 @@
+
+		.my_slider{
+			background: #fbfcfc;
+			background-image: linear-gradient(to bottom, rgba(222, 229, 231, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+			background-image: url('../img/bg_slyde1.png');
+			/*position: relative;*/
+			/*overflow: hidden;*/
+			background-repeat:repeat-x;
+			background-position: bottom;
+		}
+
+.item{
+	position: relative;
+	 overflow: hidden;
+	/*opacity: 0.2;*/
+}
+
+/*--------------------------------------------*/
+/*.my_slider_mask_1{
+	position: relative;
+}*/
+.my_slider_mask_1{
+	position: absolute;
+	height: 446px;
+	width: 356px;
+	background: red;
+	
+	z-index: 50;
+	top: 0%;
+	right: 0%;
+	opacity: 0.2;
+}
+.my_slider_mask_2{
+	position: absolute;
+	border: 315px solid transparent;
+	 border-right: 150px solid red;
+	z-index: 50;
+	top: -17%;
+	right: 21%;
+	opacity: 0.2;
+}
+.my_slider_mask_2:before{
+	content: "";
+	position: absolute;
+	border: 107px solid transparent;
+	 border-top: 239px solid green;
+	z-index: -10;
+	top: -235px;
+	right: -109px;
+	 
+}
+.my_slider_mask_2:after{
+	content: "";
+	position: absolute;
+	background: yellow;
+
+	height: 487px;
+	width: 300px;
+	transform: skew(-30deg);
+	
+	z-index: 25;
+	top: -273px;
+	right: -248px;
+	 
+	
+}
+
+.my_slider_mask_3{
+	position: absolute;
+	background: lime;
+	height: 450px;
+	width: 100px;
+	transform: skew(30deg);	
+	z-index: 25;
+	top: 0px;
+	right: 34%;	 
+	opacity: 0.2;
+}
+.my_slider_mask_3:before{
+	content: "";
+	position: absolute;
+
+	background: red;
+	height: 450px;
+	width: 10px;
+	z-index: 25;
+	top: 0px;
+	right: 0%;	 
+}
+
+	.carousel_1,.carousel_2,.carousel_3,.carousel_4{
+		position: relative;
+	}
+	.carousel_1>.owl-dots {
+  position: absolute;
+  right: 0;
+  top: 75%;
+  z-index: 20; 
+}
+
+.par{
+	position: relative;
+}
+
+/*.f1:before{
+	content: "";
+	position: absolute;
+
+	background: red;
+	height: 400px;
+	width: 400px;
+	z-index: 5;
+	top: 25px;
+	right: 70%;	 
+	}*/
+	/*.f2{
+	
+	position: absolute;
+	transform: rotate(28deg);	
+	background: red;
+	height: 623px;
+	width: 620px;
+	z-index: 5;
+	top: 30px;
+	right: -5%;	 
+	}*/
+.f3{
+	
+	position: absolute;
+	transform: rotate(-26deg);	
+	background: rgba(145, 223, 220, 0.65);
+	height: 700px;
+	width: 700px;
+	z-index: 4;
+	top: -200px;
+	right: -17%;	
+
+	box-shadow: -65px -20px 0px rgba(255,255,255,0.5),-15px -20px 0px rgba(255,255,255,0.35); 
+	
+	}
+
+	.f1{
+	position: absolute;
+	background: rgba(13, 106, 149, 0.85);
+	height: 734px;
+	width: 400px;
+	transform: skew(151deg,64deg ) rotateZ(179deg);
+	/*transform: rotate(45deg);*/
+	z-index: 10;
+	top: -111px;
+	right: -8%;	 
+	/*opacity: 0.2;*/
+	box-shadow: 19px -259px 0px rgba(13, 104, 148, 0.35);
+}
+	.f4{
+		сделать тенью от ф3
+		с градиентом
+	}
+
+	/*.f3:before{
+	content: "";
+	position: absolute;
+
+	background: lightblue;
+	height: 700px;
+	width: 15px;
+	z-index: 4;
+	top: -125px;
+	right: 100%;	
+
+	}*/
